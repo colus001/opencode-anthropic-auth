@@ -2,6 +2,12 @@
 
 An [OpenCode](https://github.com/anomalyco/opencode) plugin that provides Anthropic OAuth authentication, enabling Claude Pro/Max users to use their subscription directly with OpenCode.
 
+<details>
+  <summary>This solves the ".opencode" -> ".Claude" issues too!</summary>
+
+  ![renaming.jpg](images/renaming.jpg)
+</details>
+
 ## Installation
 
 ```bash
