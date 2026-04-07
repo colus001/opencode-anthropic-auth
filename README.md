@@ -12,6 +12,18 @@ Add the plugin to your OpenCode configuration:
 }
 ```
 
+> [!TIP]
+> It is STRONGLY advised that you pin the plugin to a version. This will keep you from getting automatic updates; however, this will protect you from nefarious updates.
+>
+> This holds true for ANY OpenCode plugin. If you do not pin them, OpenCode will automatically update them on startup. It's a massive vulnerability waiting to happen.
+
+#### Example of pinned version
+
+```json
+{
+  "plugin": ["@ex-machina/opencode-anthropic-auth@1.1.0"]
+}
+
 ## Authentication Methods
 
 The plugin provides three authentication options:
